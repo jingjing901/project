@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
     <title>playcomb</title>
+    <style>
+
+        .a{padding-left: 8px;padding-top: 4px; color: #000000;}
+    </style>
 </head>
 <body>
-<div>
+<div class="container">
 <nav class="nav navbar-default navbar-fixed-top" style="background-color:#e5e5e5;height: 46px; " role="navigation">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header" style="padding-left:-10%;float: left;">
             <img src="http://jingjingtangtang.qiniudn.com/1.png" />
 
@@ -21,17 +25,44 @@
     </div>
 </nav>
 </div>
-<div class="container" style="padding-top: 3px;">
-    <div class="row ">
-        <div class="col-lg-2" style="background-color:#e5e5e5; box-shadow: inset 1px -1px 1px 1px ">
-            <nav class="nav navbar-left navbar-default" role="menuitem">
-                <span class="glyphicon-play"></span>
-                <button class="glyphicon-play">公告</button>
-            </nav>
+
+<div class="container-fluid" style="padding-top: 3px;">
+
+        <div  style="background-color:#e6e6e6;width:15%;height:600px; float: left; border:1px #000000;padding-top: 100px;">
+            <span  class="glyphicon glyphicon-play a">公告
+                <ul>
+                    <li>列表</li>
+                </ul>
+            </span>
+            <span class="glyphicon glyphicon-play a">系统通知
+            <ul>
+                <li>开启列表</li>
+                <li>关闭列表</li>
+                <li>已推送</li>
+                <li>将要推送的通知</li>
+            </ul>
+            </span>
+            <span class="glyphicon glyphicon-play a">活动
+            <ul>
+                <li>活动列表</li>
+                <li>置顶列表</li>
+                <li>添加活动</li>
+            </ul>
+            </span>
+            <span class="glyphicon glyphicon-play a">玩家
+            <ul>
+                <li>玩家列表</li>
+            </ul>
+            </span>
+            <span class="glyphicon glyphicon-play a">Test
+            <ul>
+                <li>TestPage</li>
+            </ul>
+            </span>
         </div>
 
 
-        <div class="container ">
+        <div style="padding-left:2%; width: 78%; float: left">
             <
             <!--<div class="gamename">-->
                <!--<p class="float-left">-->
@@ -63,14 +94,14 @@
 
 
             <form role="form">
-                <label for="name" class="col-lg-2">标题</label>
+                <label for="name">标题</label>
                 <input type="text" class="form-control" id="name">
             </form>
 
 
             <p>共查询出<kbd>0条</kbd>符合条件的数据</p>
             <div class="table-responsive ">
-                <table class="table table-bordered  table-hover">
+                <table class="table table-bordered  table-hover table-condensed">
                     <thead style="background-color: #e5e5e5">
                     <tr>
                         <th>游戏</th>
@@ -86,46 +117,7 @@
                     </thead>
                     <tbody>
 
-                    <tr>
-                        <td>神鬼幻想</td>
-                        <td>元宵节充值送大礼</td>
-                        <td>2015-03-04 20:00:00</td>
-                        <td>2015-03-06 20:00:00</td>
-                        <td>上线</td>
-                        <td>一天只显示</td>
-                        <td>Android</td>
-                        <td>已发布</td>
-                    </tr>
-                    <tr>
-                        <td>神鬼幻想</td>
-                        <td>元宵节充值送大礼</td>
-                        <td>2015-03-04 20:00:00</td>
-                        <td>2015-03-06 20:00:00</td>
-                        <td>上线</td>
-                        <td>一天只显示</td>
-                        <td>Android</td>
-                        <td>已发布</td>
-                    </tr>
-                    <tr>
-                        <td>神鬼幻想</td>
-                        <td>元宵节充值送大礼</td>
-                        <td>2015-03-04 20:00:00</td>
-                        <td>2015-03-06 20:00:00</td>
-                        <td>上线</td>
-                        <td>一天只显示</td>
-                        <td>Android</td>
-                        <td>已发布</td>
-                    </tr>
-                    <tr>
-                        <td>神鬼幻想</td>
-                        <td>元宵节充值送大礼</td>
-                        <td>2015-03-04 20:00:00</td>
-                        <td>2015-03-06 20:00:00</td>
-                        <td>上线</td>
-                        <td>一天只显示</td>
-                        <td>Android</td>
-                        <td>已发布</td>
-                    </tr>
+
                     <tr>
                         <td>神鬼幻想</td>
                         <td>元宵节充值送大礼</td>
