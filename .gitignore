@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <title>playcomb</title>
+</head>
+<body>
+<div>
+<nav class="nav navbar-default navbar-fixed-top" style="background-color:#e5e5e5;height: 46px; " role="navigation">
+    <div class="container">
+        <div class="navbar-header" style="padding-left:-10%;float: left;">
+            <img src="photo/1.png" />
+
+        </div>
+        <div style="padding-left:92%;padding-top: 6px;">
+            <button class="btn-sm" >退出</button>
+        </div>
+
+    </div>
+</nav>
+</div>
+<div class="container" style="padding-top: 3px;">
+    <div class="row ">
+        <div class="col-lg-2" style="background-color:#e5e5e5; box-shadow: inset 1px -1px 1px 1px ">
+            <nav class="nav navbar-left navbar-default" role="menuitem">
+                <span class="glyphicon-play"></span>
+                <button class="glyphicon-play">公告</button>
+            </nav>
+        </div>
+
+
+        <div class="container ">
+            <
+            <!--<div class="gamename">-->
+               <!--<p class="float-left">-->
+                   <!--<i class="icon-24-resum icon-24-view"></i>-->
+                   <!--"游戏名称"-->
+               <!--</p>-->
+                <!--<div class="resume-visible-set">-->
+                    <!--<a href="javascript:;" data-selector="resume-visible-set" class="resume-visible">-->
+                        <!--<span>全部游戏</span>-->
+                        <!--<i>::before-->
+                            <!--::after-->
+                        <!--</i>-->
+                    <!--</a>-->
+                    <!--<ul data-selector="resumeVisiblePanel">-->
+                        <!--<li>-->
+                            <!--<a data-value="0" href="javascript:;">英雄联盟</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a data-value="1" href="javascript:;">三国杀</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a data-value="2" href="javascript:;">八仙过海</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a data-value="3" href="javascript:;">神鬼幻想</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+
+
+            <form role="form">
+                <label for="name" class="col-lg-2">标题</label>
+                <input type="text" class="form-control" id="name">
+            </form>
+
+
+            <p>共查询出<kbd>0条</kbd>符合条件的数据</p>
+            <div class="table-responsive ">
+                <table class="table table-bordered  table-hover">
+                    <thead style="background-color: #e5e5e5">
+                    <tr>
+                        <th>游戏</th>
+                        <th>标题</th>
+                        <th>开始时间</th>
+                        <th>结束时间</th>
+                        <th>版本类型</th>
+                        <th>公告类别</th>
+                        <th>平台</th>
+                        <th>发布状态</th>
+                    </tr>
+
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    <tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr><tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr><tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr><tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr><tr>
+                        <td>神鬼幻想</td>
+                        <td>元宵节充值送大礼</td>
+                        <td>2015-03-04 20:00:00</td>
+                        <td>2015-03-06 20:00:00</td>
+                        <td>上线</td>
+                        <td>一天只显示</td>
+                        <td>Android</td>
+                        <td>已发布</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+                <nav style="padding-left: 20%" >
+                    <ul class="pagination">
+                        <li><a href="#">首页</a> </li>
+                        <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">6 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">7 <span class="sr-only">(current)</span></a></li>
+                        <li class="disabled"><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+                        <p>共100页，跳转到第<input type="text" style="width: 40px; padding-top: 6px;">页 </p>
+
+                    </ul>
+                       <button class="pager">确定</button>
+                </nav>
+
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+
+<nav class="nav navbar-default navbar-fixed-bottom" style="background-color:#e6e6e6;height: 30px; " role="navigation">
+    <div class="container">
+        <div class="navbar-footer"  >
+           <a class="navbar-brand" href="#" style="font-size: 12px;padding-left:38% ;padding-top: 8px;">Copyright@2015 Perfet World,Ltd All tights reserved </a>
+        </div>
+    </div>
+</nav>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>
